@@ -1,4 +1,4 @@
-package com.tionkior.wallpaper.pojo;
+package com.tionkior.wallpaper.entity;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

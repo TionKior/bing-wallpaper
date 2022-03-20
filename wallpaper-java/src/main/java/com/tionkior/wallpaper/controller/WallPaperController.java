@@ -1,8 +1,8 @@
 package com.tionkior.wallpaper.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.tionkior.wallpaper.pojo.WallPaper;
-import com.tionkior.wallpaper.pojo.vo.Result;
+import com.tionkior.wallpaper.entity.WallPaper;
+import com.tionkior.wallpaper.entity.vo.Result;
 import com.tionkior.wallpaper.service.WallPaperService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -1,11 +1,10 @@
 package com.tionkior.wallpaper.controller;
 
-import com.tionkior.wallpaper.pojo.Category;
-import com.tionkior.wallpaper.pojo.vo.Result;
+import com.tionkior.wallpaper.entity.Category;
+import com.tionkior.wallpaper.entity.vo.Result;
 import com.tionkior.wallpaper.service.CategoryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

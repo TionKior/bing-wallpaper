@@ -1,7 +1,7 @@
 package com.tionkior.wallpaper.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tionkior.wallpaper.pojo.Category;
+import com.tionkior.wallpaper.entity.Category;
 
 /**
  * @author : TionKior

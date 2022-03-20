@@ -1,10 +1,9 @@
 package com.tionkior.wallpaper.service;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tionkior.wallpaper.pojo.WallPaper;
-import com.tionkior.wallpaper.pojo.vo.Result;
+import com.tionkior.wallpaper.entity.WallPaper;
+import com.tionkior.wallpaper.entity.vo.Result;
 
 /**
  * @author : TionKior

@@ -2,7 +2,7 @@ package com.tionkior.wallpaper;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.tionkior.wallpaper.mapper.WallPaperMapper;
-import com.tionkior.wallpaper.pojo.WallPaper;
+import com.tionkior.wallpaper.entity.WallPaper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

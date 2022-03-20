@@ -1,4 +1,4 @@
-package com.tionkior.wallpaper.pojo;
+package com.tionkior.wallpaper.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;

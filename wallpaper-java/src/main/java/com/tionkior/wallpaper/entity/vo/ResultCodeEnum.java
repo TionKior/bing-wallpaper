@@ -1,4 +1,4 @@
-package com.tionkior.wallpaper.pojo.vo;
+package com.tionkior.wallpaper.entity.vo;
 
 /**
  * 返回结果枚举类

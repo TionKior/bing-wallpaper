@@ -29,3 +29,19 @@
 2022-03-19 15:05:03.515  WARN 9328 --- [http-nio-8088-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://115.29.190.2:3306/wallpaper?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=true&serverTimezone=UTC, version : 1.2.8, lastPacketReceivedIdleMillis : 103312
 2022-03-19 15:17:21.272  INFO 9328 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-03-19 15:17:21.277  INFO 9328 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-03-19 15:31:01.581  INFO 6976 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Starting WallpaperJavaApplication using Java 11.0.12 on DESKTOP-50C6TV2 with PID 6976 (D:\4_Project\3-wallpaper\wallpaper-java\target\classes started by TionKior in D:\4_Project\3-wallpaper\wallpaper-java)
+2022-03-19 15:31:01.584  INFO 6976 --- [main] c.t.wallpaper.WallpaperJavaApplication   : No active profile set, falling back to default profiles: default
+2022-03-19 15:31:02.748  INFO 6976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-03-19 15:31:02.755  INFO 6976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-19 15:31:02.755  INFO 6976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-19 15:31:02.824  INFO 6976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-19 15:31:02.824  INFO 6976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1195 ms
+2022-03-19 15:31:02.944  INFO 6976 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-03-19 15:31:03.029  INFO 6976 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-03-19 15:31:04.304  INFO 6976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-03-19 15:31:04.502  INFO 6976 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Started WallpaperJavaApplication in 3.309 seconds (JVM running for 4.315)
+2022-03-19 15:31:35.329  INFO 6976 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-19 15:31:35.330  INFO 6976 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-19 15:31:35.333  INFO 6976 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-03-19 16:28:56.372  INFO 6976 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-03-19 16:28:56.372  INFO 6976 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

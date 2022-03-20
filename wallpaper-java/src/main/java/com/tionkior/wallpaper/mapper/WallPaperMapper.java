@@ -1,7 +1,7 @@
 package com.tionkior.wallpaper.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.tionkior.wallpaper.pojo.WallPaper;
+import com.tionkior.wallpaper.entity.WallPaper;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

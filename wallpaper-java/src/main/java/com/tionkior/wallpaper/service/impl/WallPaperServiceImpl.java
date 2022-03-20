@@ -4,8 +4,8 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.tionkior.wallpaper.mapper.WallPaperMapper;
-import com.tionkior.wallpaper.pojo.WallPaper;
-import com.tionkior.wallpaper.pojo.vo.Result;
+import com.tionkior.wallpaper.entity.WallPaper;
+import com.tionkior.wallpaper.entity.vo.Result;
 import com.tionkior.wallpaper.service.WallPaperService;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.tionkior.wallpaper.pojo.vo;
+package com.tionkior.wallpaper.entity.vo;
 
 import java.io.Serializable;
 import java.text.MessageFormat;

@@ -10,9 +10,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="https://cn.bing.com/" class="navbar-brand" style="color: white">
+          <router-link to="/admin/login" class="navbar-brand" style="color: white">
             Bing
-          </a>
+          </router-link>
         </div>
         <div id="menu" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -20,6 +20,24 @@
                 @click="setIndex(index)">
               <a class="li-a" @click="pushCategoryId(classify.id)">{{ classify.category }}</a>
             </li>
+
+            <router-link to="/user"
+                         v-if="data.username !== data.ADMIN_USERNAME || data.username === null || data.username === ''">
+              <el-button @click="toUserHome()"
+                         style="margin-left: 300px;margin-top: 10px">用户中心
+              </el-button>
+            </router-link>
+
+            <router-link to="/admin" v-else>
+              <el-button
+                  style="margin-left: 300px;margin-top: 10px">管理员中心
+              </el-button>
+            </router-link>
+
+            <router-link to="/admin/login">
+              <el-button style="margin-top: 10px;">用户登录
+              </el-button>
+            </router-link>
           </ul>
         </div>
       </div>
@@ -34,17 +52,20 @@ import {
   onMounted, provide,
   reactive, ref,
 } from 'vue'
-import images from '../views/Images'
 import {useRouter} from "vue-router";
+import {useStore} from "vuex";
+import Constants from "@/constant/Constants";
 
 let {proxy} = getCurrentInstance();
-
+const store = useStore()
 let data = reactive({
   active: '',
   classifications: [{
     id: '',
     category: ''
-  }]
+  }],
+  username: '',
+  ADMIN_USERNAME: Constants.ADMIN_NAME,
 })
 
 // 实现点击样式改变
@@ -65,15 +86,39 @@ const router = useRouter()
 // 查找分类图片
 const pushCategoryId = (categoryId) => {
   router.push({
-    path: '/images',
+    path: '/',
     query: {
       categoryId: categoryId
     }
   })
 }
 
+const getUsername = () => {
+  if (store.state.username !== '') {
+    data.username = store.state.userName
+  }
+}
+
+const toUserHome = () => {
+  if (store.state.userName === null) {
+    proxy.$message.error('请先登录')
+    router.push('/admin/login')
+  } else {
+    if (data.ADMIN_USERNAME === data.username) {
+      router.push({
+        path: '/admin'
+      })
+    } else {
+      router.push({
+        path: '/user/home'
+      })
+    }
+  }
+}
+
 onMounted(() => {
   getClassify()
+  getUsername()
 })
 
 </script>
@@ -87,4 +132,5 @@ body {
   /*a标签小手*/
   cursor: pointer;
 }
+
 </style>

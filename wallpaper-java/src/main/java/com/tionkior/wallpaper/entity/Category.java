@@ -1,5 +1,6 @@
 package com.tionkior.wallpaper.entity;
 
+import com.baomidou.mybatisplus.annotation.TableId;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -22,6 +23,7 @@ import java.io.Serializable;
 public class Category implements Serializable {
 
     @ApiModelProperty(value = "主键id", example = "0")
+    @TableId
     private Long id;
     @ApiModelProperty("分类类型")
     private String category;

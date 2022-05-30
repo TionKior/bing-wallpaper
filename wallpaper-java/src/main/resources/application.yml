@@ -3,24 +3,25 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
+
   # mysql数据库配置
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://115.29.190.2:3306/wallpaper?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=true&serverTimezone=UTC
+      url: jdbc:mysql://localhost:3306/wallpaper?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=true&serverTimezone=UTC
       username: root
       password: ssx14233
-    redis:
-      shiro:
-        host: 127.0.0.1
-        port: 6379
-        timeout: 0
+  redis:
+    shiro:
+      host: 127.0.0.1
+      port: 6379
+      timeout: 0
       #      password: 123456
 
 
 #port
 server:
-  port: 8088 # 设置端口号
+  port: 8080 # 设置端口号
   servlet:
     context-path: / #设置上下文路径
 

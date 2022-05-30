@@ -1,6 +1,7 @@
 package com.tionkior.wallpaper;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.tionkior.wallpaper.entity.dto.WallPaperDTO;
 import com.tionkior.wallpaper.mapper.WallPaperMapper;
 import com.tionkior.wallpaper.entity.WallPaper;
 import lombok.extern.slf4j.Slf4j;
@@ -25,8 +26,9 @@ class WallpaperJavaApplicationTests {
 
     @Test
     void logTest() {
-        String logStr = "测试这是方法";
-        log.debug("This test : {}", logStr);
-        log.error("This test : {}", logStr);
+        List<WallPaperDTO> wallPaperDTOList = wallPaperMapper.getWallPaperList();
+        for (WallPaperDTO wallPaperDTO : wallPaperDTOList) {
+            System.out.println(wallPaperDTO);
+        }
     }
 }

@@ -1,47 +1,41 @@
-2022-03-19 15:01:35.926  INFO 17876 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Starting WallpaperJavaApplication using Java 11.0.12 on DESKTOP-50C6TV2 with PID 17876 (D:\4_Project\3-wallpaper\wallpaper-java\target\classes started by TionKior in D:\4_Project\3-wallpaper\wallpaper-java)
-2022-03-19 15:01:35.933  INFO 17876 --- [main] c.t.wallpaper.WallpaperJavaApplication   : No active profile set, falling back to default profiles: default
-2022-03-19 15:01:37.171  INFO 17876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2022-03-19 15:01:37.182  INFO 17876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-19 15:01:37.182  INFO 17876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-03-19 15:01:37.264  INFO 17876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-19 15:01:37.265  INFO 17876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
-2022-03-19 15:01:37.414  INFO 17876 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2022-03-19 15:01:37.524  INFO 17876 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2022-03-19 15:01:39.021  INFO 17876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
-2022-03-19 15:01:39.299  INFO 17876 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Started WallpaperJavaApplication in 3.829 seconds (JVM running for 4.99)
-2022-03-19 15:01:56.975  INFO 17876 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2022-03-19 15:01:56.977  INFO 17876 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2022-03-19 15:02:50.347  INFO 9328 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Starting WallpaperJavaApplication using Java 11.0.12 on DESKTOP-50C6TV2 with PID 9328 (D:\4_Project\3-wallpaper\wallpaper-java\target\classes started by TionKior in D:\4_Project\3-wallpaper\wallpaper-java)
-2022-03-19 15:02:50.349  INFO 9328 --- [main] c.t.wallpaper.WallpaperJavaApplication   : No active profile set, falling back to default profiles: default
-2022-03-19 15:02:51.611  INFO 9328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2022-03-19 15:02:51.618  INFO 9328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-19 15:02:51.619  INFO 9328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-03-19 15:02:51.689  INFO 9328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-19 15:02:51.689  INFO 9328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1292 ms
-2022-03-19 15:02:51.831  INFO 9328 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2022-03-19 15:02:51.922  INFO 9328 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2022-03-19 15:02:53.205  INFO 9328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
-2022-03-19 15:02:53.406  INFO 9328 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Started WallpaperJavaApplication in 3.467 seconds (JVM running for 4.503)
-2022-03-19 15:03:18.732  INFO 9328 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-03-19 15:03:18.733  INFO 9328 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-03-19 15:03:18.736  INFO 9328 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2022-03-19 15:05:03.515  WARN 9328 --- [http-nio-8088-exec-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://115.29.190.2:3306/wallpaper?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=true&serverTimezone=UTC, version : 1.2.8, lastPacketReceivedIdleMillis : 79342
-2022-03-19 15:05:03.515  WARN 9328 --- [http-nio-8088-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://115.29.190.2:3306/wallpaper?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=true&serverTimezone=UTC, version : 1.2.8, lastPacketReceivedIdleMillis : 103312
-2022-03-19 15:17:21.272  INFO 9328 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2022-03-19 15:17:21.277  INFO 9328 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2022-03-19 15:31:01.581  INFO 6976 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Starting WallpaperJavaApplication using Java 11.0.12 on DESKTOP-50C6TV2 with PID 6976 (D:\4_Project\3-wallpaper\wallpaper-java\target\classes started by TionKior in D:\4_Project\3-wallpaper\wallpaper-java)
-2022-03-19 15:31:01.584  INFO 6976 --- [main] c.t.wallpaper.WallpaperJavaApplication   : No active profile set, falling back to default profiles: default
-2022-03-19 15:31:02.748  INFO 6976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2022-03-19 15:31:02.755  INFO 6976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-19 15:31:02.755  INFO 6976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-03-19 15:31:02.824  INFO 6976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-19 15:31:02.824  INFO 6976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1195 ms
-2022-03-19 15:31:02.944  INFO 6976 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
-2022-03-19 15:31:03.029  INFO 6976 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2022-03-19 15:31:04.304  INFO 6976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
-2022-03-19 15:31:04.502  INFO 6976 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Started WallpaperJavaApplication in 3.309 seconds (JVM running for 4.315)
-2022-03-19 15:31:35.329  INFO 6976 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-03-19 15:31:35.330  INFO 6976 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-03-19 15:31:35.333  INFO 6976 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2022-03-19 16:28:56.372  INFO 6976 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2022-03-19 16:28:56.372  INFO 6976 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-30 16:05:42.196  INFO 4356 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Starting WallpaperJavaApplication using Java 11.0.12 on DESKTOP-50C6TV2 with PID 4356 (D:\4_Project\3-wallpaper\wallpaper-java\target\classes started by TionKior in D:\4_Project\3-wallpaper\wallpaper-java)
+2022-05-30 16:05:42.250  INFO 4356 --- [main] c.t.wallpaper.WallpaperJavaApplication   : No active profile set, falling back to default profiles: default
+2022-05-30 16:05:55.021  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.tionkior.wallpaper.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$5b3f23b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:55.571  INFO 4356 --- [main] oConfig$$EnhancerBySpringCGLIB$$5b3f23b2 : ShiroConfiguration.rememberMeManager()========
+2022-05-30 16:05:55.572  INFO 4356 --- [main] oConfig$$EnhancerBySpringCGLIB$$5b3f23b2 : ShiroConfiguration.rememberMeCookie()=============
+2022-05-30 16:05:55.583  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:55.613  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cookieRememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:55.784  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:55.807  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:55.842  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [com.tionkior.wallpaper.shiro.MySessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:55.854  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisCacheManager' of type [org.crazycake.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:55.907  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:56.893  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:56.906  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myBatisPlusConfig' of type [com.tionkior.wallpaper.config.MyBatisPlusConfig$$EnhancerBySpringCGLIB$$57034d71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:56.981  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisPlusInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:57.002  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:57.002  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$cceb5223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:57.004  INFO 4356 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-30 16:05:57.424  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:57.820  INFO 4356 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-30 16:05:57.820  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:58.414  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:58.449  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.706  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.713  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.749  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.750  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'roleMapper' of type [com.sun.proxy.$Proxy80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.785  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.786  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.786  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.tionkior.wallpaper.shiro.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:05:59.787  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:06:00.423  INFO 4356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-30 16:06:03.083  INFO 4356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-30 16:06:03.206  INFO 4356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-30 16:06:03.206  INFO 4356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-05-30 16:06:04.011  INFO 4356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-30 16:06:04.011  INFO 4356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 21326 ms
+2022-05-30 16:06:11.552  INFO 4356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 16:06:13.028  INFO 4356 --- [main] c.t.wallpaper.WallpaperJavaApplication   : Started WallpaperJavaApplication in 36.109 seconds (JVM running for 38.87)
+2022-05-30 16:10:02.541  INFO 4356 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-30 16:10:02.557  INFO 4356 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
